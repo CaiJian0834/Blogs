@@ -12,7 +12,7 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://caijian0834.github.io/index.html
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,28 +69,6 @@ theme: archer
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:  git 
+  type: git
   repository: git@github.com:caijian0834/CaiJian0834.github.io
   branch: hexo
-#sidebar
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true
-#admin
-
-
